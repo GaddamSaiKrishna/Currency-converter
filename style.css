@@ -14,15 +14,19 @@ body{
     background-color: #36494E;
      background: linear-gradient(45deg,#010758,#490d61); 
 }
+body p{
+    font-size: 16px;
+}
 .container{
     background-color: white;
     padding: 2rem;
+    padding-top: 4rem;
     border-radius: 1rem;
-    min-height: 45vh;
+    min-height: 40vh;
     width: 50vh;
 }
-h2{
-    font-size: 120%;
+h1{
+    font-size: 180%;
     text-decoration: underline;
 }
 form{
@@ -74,10 +78,14 @@ select{
     margin: 2rem 0 2rem 0;
 }
 button{
-    padding: 0.5rem;
+    padding: 0.7rem;
     background-color: #355282;
     color: white;
     font-weight: bold;
     font-size: 1rem;
     cursor: pointer;
+}
+button:hover{
+    background-color: rgb(6, 102, 199);
+    color: black;
 }
